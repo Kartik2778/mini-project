@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient( to bottom right, rgb(202, 24, 202), rgb(40, 40, 140));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#heading {
+  font-size: 80px;
+  color: white;
+}
+#text-area {
+  border: 2px solid rgb(24, 24, 24);
+  border-radius: 10px;
+  font-size: 30px;
+  padding: 10px;
+}
+.btn {
+  background-color: rgb(14, 133, 212);
+  color: white;
+  font-size: 25px;
+  border-style: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover{
+    background-color: rgb(49, 86, 180);
+  }
+}
+
+
